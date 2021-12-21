@@ -35,6 +35,7 @@ const ContactForm = () => {
       updateContact(contact);
     }
     setContact({ name: '', email: '', phone: '', type: 'personal' });
+    
   };
 
   const clearAll = () => {
